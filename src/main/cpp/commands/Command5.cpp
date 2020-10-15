@@ -25,7 +25,6 @@ Command5::Command5(){
 
 // Called just before this Command runs the first time
 void Command5::Initialize() {
-    std::cout << "Command 5" << std::endl;
 
 }
 
@@ -36,7 +35,7 @@ void Command5::Execute() {
 
 // Make this return true when this Command no longer needs to run execute()
 bool Command5::IsFinished() {
-    return true;
+    return false;
 }
 
 // Called once after isFinished returns true

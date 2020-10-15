@@ -27,7 +27,6 @@ Command1::Command1(Subsystem1* subsystem1)
 
 // Called just before this Command runs the first time
 void Command1::Initialize() {
-    std::cout << "Command 1" << std::endl;
 
 }
 
@@ -38,7 +37,7 @@ void Command1::Execute() {
 
 // Make this return true when this Command no longer needs to run execute()
 bool Command1::IsFinished() {
-    return true;
+    return false;
 }
 
 // Called once after isFinished returns true

@@ -28,7 +28,6 @@ Command3::Command3(double param1 ,Subsystem2* subsystem2) :
 
 // Called just before this Command runs the first time
 void Command3::Initialize() {
-    std::cout << "Command 3. Param1: " <<m_param1 << std::endl;
 
 }
 
@@ -39,7 +38,7 @@ void Command3::Execute() {
 
 // Make this return true when this Command no longer needs to run execute()
 bool Command3::IsFinished() {
-    return true;
+    return false;
 }
 
 // Called once after isFinished returns true

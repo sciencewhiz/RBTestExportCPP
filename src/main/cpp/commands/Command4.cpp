@@ -25,7 +25,6 @@ Command4::Command4(){
 
 // Called just before this Command runs the first time
 void Command4::Initialize() {
-    std::cout << "Command 4" << std::endl;
 
 }
 
@@ -36,7 +35,7 @@ void Command4::Execute() {
 
 // Make this return true when this Command no longer needs to run execute()
 bool Command4::IsFinished() {
-    return true;
+    return false;
 }
 
 // Called once after isFinished returns true
